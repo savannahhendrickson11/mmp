@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	max-width:1000px;
+	margin:0 auto;
+}
+
+.responsive-img{
+	width:100%;
+}
+
+@media (min-width:480px){
+	.row{
+	display:flex;
+	flex-direction:row;
+}
+
+    .col{
+	flex:1 1 50%;
+	margin-right:4%;
+}
+
+    .col:last-child{
+	margin-right:0;
+}
+
+    nav{
+    	text-align:right;
+    	flex:1 1 50%;
+    	align-self:start;
+}
+
+    nav li{
+    	display:inline-block;
+    	margin-left:1em;
+}
+
+    header{
+    	flex:1 1 50%;
+}
+
+}

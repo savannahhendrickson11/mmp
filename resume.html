@@ -2,56 +2,169 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1">
-    <title>Portfolio</title>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<style>
-  nav, header{
-    border:solid 1px #ccc;
-    margin-right:1em;
-    flex:0 0 50%;
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Web Page Title</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <style>
+  body{
+    background-color: pink;
+  }
+  #container{
+    max-width: 1170px;
+    margin:0 auto;'
+    background-color: purple;
+  }
+    .img{
+    width:15%;
+    height:auto;
   }
   nav ul{
     display:flex;
     list-style-type:none;
     justify-content:flex-end;
   }
-  nav li{
-    margin: 1em;
-  }
-    #container{
-    max-width: 1170px;
-    margin:0 auto;
-  }
-  h1{
-    font-family: "Verdana";
-  }
-  .caption{
-    background-color:rgba (255, 255, 255, 0.5);
-    display:none;
+    @media (min-width:480px){
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1em;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+  width: 30%;
+  height: 30%;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 50;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.gallery {
+  opacity: 0.6;
+}
+
+.active,
+.gallery:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+  nav, header{
+    border:solid 1px #ccc;
+    margin-right:1em;
+    flex:0 0 50%;
     text-align:center;
-    flex-direction:column;
-    justify-center:center;
+    background-color: purple;
+    display:inline-block;
   }
-  .col{
-    flex:1 1 50%;
-    margin:1em;
-  }
-  .row{
-    display: flex;
-    flex-direction: row;
-    background-color:pink;
-  }
-  .card:hover .caption{
-    display:flex;
-  }
-   .responsive-img{
-    width: 100%;
-  }
-  .img{
-    width:15%;
-    height:auto;
-  }
+    nav li{
+      display:inline-block;
+      margin:1em;
+}
+    body{
+      margin-top:20px;
+}                          
+}
 </style>
   </head>
   <body>

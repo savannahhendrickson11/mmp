@@ -3,198 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Web Page Title</title>
+    <title>Savannah Hendrickson's Portfolio</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <style>
-  body{
-    background-color: pink;
-  }
-  #container{
-    max-width: 1170px;
-    margin:0 auto;'
-    background-color: purple;
-  }
-    .img{
-    width:15%;
-    height:auto;
-  }
-  nav ul{
-    display:flex;
-    list-style-type:none;
-    justify-content:flex-end;
-  }
-    @media (min-width:480px){
-.row > .column {
-  padding: 0 8px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1em;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 50%;
-  height: 50%;
-  overflow: auto;
-  background-color: black;
-}
-
-/* Modal Content */
-.modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  width: 50%;
-  max-width: 300px;
-}
-
-/* The Close Button */
-.close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.mySlides {
-  display: none;
-  width: 30%;
-  height: 30%;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: 50;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-.caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}
-
-img.gallery {
-  opacity: 0.6;
-}
-
-.active,
-.gallery:hover {
-  opacity: 1;
-}
-
-img.hover-shadow {
-  transition: 0.3s
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
-
-  nav, header{
-    border:solid 1px #ccc;
-    margin-right:1em;
-    flex:0 0 50%;
-    text-align:center;
-    background-color: purple;
-    display:inline-block;
-  }
-    nav li{
-      display:inline-block;
-      margin:1em;
-}
-    body{
-      margin-top:20px;
-}                          
-}
-</style>
+      <link rel="stylesheet" href="style-float.css">
   </head>
   <body>
-    <div class="container"> <!-- page wrapper -->
-      <div class="row">
-          <header class= "col-6 mb-4">
-      <h1><a href="index.html">Savannah<img src="Logo.png" alt="logo" class="img">Hendrickson</a><br>
-        <h1><small class="text-muted">Graphic Design and Illustration</small></h1>
-        </header>
+<div class="container"> <!-- page wrapper -->
     <!-- **** NAVIGATION ************  -->
-         <nav class="col-6 navbar navbar-expand-md navbar-light justify-content-end">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
+<nav class="navbar fixed-top navbar-light" style= "background-color:purple">
+  <a class="navbar-brand" href="portfolio">
+       Savannah Hendrickson's Portfolio
+       <small class="text-muted">Graphic Design and Illustration</small>
+       </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+         <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="portfolio-bs.html">Work</a>
+                <a class="nav-link" href="contact.html">Contacts</a>
+              </li>
+                  <li class="nav-item active">
+                <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="resume.html">Resume</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contacts</a>
+               <li class="nav-item">
+               <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Works</a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="portfolio-bs.html">Graphic Design</a>
+          <a class="dropdown-item" href="illustrations.html">Illustrastion</a>  
               </li>
             </ul>
           </div>
@@ -202,139 +44,80 @@ img.hover-shadow {
 <!-- **** END OF NAVIGATION ************  -->
         </div> <!-- .row -->        
 <!-- **** CONTENT ************  -->
+  <center><h3>Portfolio-Graphic Design</h3></center>
         <div id="content">
-   <div class="row">
-  <div class="column">
-    <img class="thumbnail img-fluid" src="HendricksonS_FP.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-  </div> <!-- *** .column **** -->
-  <div class="column">
-    <img class="thumbnail img-fluid" src="HendricksonS_P3_GIF1.gif" onclick="openModal();currentSlide(2)" class="hover-shadow">
-  </div><!-- *** .column **** -->
-  <div class="column">
-    <img class="thumbnail img-fluid" src="Goldestein.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
-  </div> <!-- *** .column **** -->
-  <div class="column">
-    <img class="thumbnail img-fluid" src="hendrickson_s_phographicalphabet.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-  </div> <!-- *** .column **** -->
- <div class="column">
-    <img class="thumbnail img-fluid" src="Photoshop1.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
-  </div> <!-- *** .column **** -->
- <div class="column">
-    <img class="thumbnail img- fluid" src="HendricksonS_P1_webComp.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
-  </div> <!-- *** .column **** -->
-</div> <!-- *** .row **** -->
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-    <div class="mySlides">
-      <div class="numbertext">1 / 6</div>
-      <img src="HendricksonS_FP.jpg" style="width:100%">
-      <p class= "title">I Think There's a Flaw In My Code</p>
-       <p class="bio">This was the final project for a Digital Imaging class. I used the combination photos and text to create this project for a digital imaging class using both Adobe Photoshop and In Design.</p>
-    </div><!-- *** .mySlides **** -->
-    <div class="mySlides">
-      <div class="numbertext">2 / 6</div>
-      <img src="HendricksonS_P3_GIF1.gif" style="width:100%">
-      <p class= "title">Anime GIF: Girl Crying in the Rain</p>
-       <p class="bio">This project was also for the Digital Imaging class. I illustrated the girl crying in the rain in Adobe Illustrator and animated the scene into a GIF using Adobe Photoshop for this project.</p>
-    </div><!-- *** .mySlides **** -->
-    <div class="mySlides">
-      <div class="numbertext">3 / 6</div>
-      <img src="Goldestein.png" style="width:100%">
-      <p class= "title">Goldstein National Bank Logoin</p>
-       <p class="bio">This is for the Visual Communications class. I had to take a fellow classmate's surname and design a logo for the client of that name based on the type of brand. For this project, I used Adobe Illustrator and Adobe InDesign</p>
-    </div><!-- *** .mySlides **** -->
-    <div class="mySlides">
-      <div class="numbertext">4 / 6</div>
-      <img src="hendrickson_s_phographicalphabet.jpg" style="width:100%">
-      <p class= "title">Photographical Alphabet</p>
-       <p class="bio">This was a project done for a typography class. I had to take photos of logos with words and put them all together using Adobe Photoshop to make up the alphabet.</p>
-    </div><!-- *** .mySlides **** -->
-      <div class="mySlides">
-      <div class="numbertext">5 / 6</div>
-      <img src="Photoshop1.jpg" style="width:100%">
-      <p class= "title">Wild Kingdom</p>
-       <p class="bio">This was a projet for a Multimedia Arts. I was practicing the use of Adobe Photoshop and its tools. With it, I took some picture to make it into a random collage</p>
-    </div><!-- *** .mySlides **** -->
-    <div class="mySlides">
-      <div class="numbertext">6 / 6</div>
-      <img src="HendricksonS_P1_webComp.jpg" style="width:100%">
-      <p class= "title">Vintage Photo Recolored</p>
-      <p class="bio">This was the first project in the Digital Imaging class. I took an vintage photo of two women walking in the park and recolored it using Adobe Photoshop.</p>
-    </div><!-- *** .mySlides **** -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-    <div class="column">
-      <img class="gallery" src="HendricksonS_FP.jpg" onclick="currentSlide(1)" alt="I Think There's a Flaw In My Code">
-    </div><!-- *** .column **** -->
-    <div class="column">
-      <img class="gallery" src="HendricksonS_P3_GIF1.gif" onclick="currentSlide(2)" alt="Anime GIF: Girl Crying in the Rain">
-    </div><!-- *** .column **** -->
-    <div class="column">
-      <img class="gallery" src="Goldestein.png" onclick="currentSlide(3)" alt="Goldstein National Bank Logo">
-    </div><!-- *** .column **** -->
-    <div class="column">
-      <img class="gallery" src="hendrickson_s_phographicalphabet.jpg" onclick="currentSlide(4)" alt="Photographical Alphabet">
-    </div>
-    <div class="column">
-      <img class="gallery" src="Photoshop1.jpg" onclick="currentSlide(5)" alt="Wild Kingdom">
-    </div><!-- *** .column **** -->
-    <div class="column">
-      <img class="gallery" src="HendricksonS_P1_webComp.jpg" onclick="currentSlide(6)" alt="Vintage Photo Recolored">
-    </div><!-- *** .column **** -->
-  </div><!-- *** .caption-container **** -->
-</div> <!-- *** .modal **** -->
-</div> <!-- *** .content **** -->
+      <div class="row">
+        <div class="card" style="width: 80rem;">
+              <a href="Goldestein.png" class="thumbnail" data-toggle="modal" data-target="#lightbox">
+                 <img class="card-img-top" src="Goldestein.png" class="Card image cap">
+                   <div class="card-body">
+                <h4 class="card-title">"Goldstein National Bank Logo"</h4>
+                <p class="card-text">This is for the Visual Communications class. I had to take a fellow classmate's surname and design a logo for the client of that name based on the type of brand. For this project, I used Adobe Illustrator and Adobe InDesign.</p>
+            </a>
+            </div>  
+          </div>
+          </div> <!-- .row -->
+            <div class="row">
+            <div class="card" style="width: 40rem;">
+                 <a href="HendricksonS_FP.jpg" class="thumbnail" data-toggle="modal" data-target="#lightbox">
+                  <img class="card-img-top" src="HendricksonS_FP.jpg" class="Card image cap">  
+                  <div class="card-body">
+                <h4 class="card-title">"I Think There's A Flaw in My Code"</h4>
+                <p class="card-text">This was the final project for a Digital Imaging class. I used the combination photos and text to create this project using both Adobe Photoshop and In Design.</p>
+            </a> 
+          </div>
+          </div>
+          <div class="card" style="width: 40rem;">
+               <a href="Photoshop1.jpg" class="thumbnail" data-toggle="modal" data-target="#lightbox">
+                  <img class="card-img-top" src="Photoshop1.jpg" class="Card image cap">
+                    <div class="card-body">
+                <h4 class="card-title">"Wild Kingdom"</h4>
+                <p class="card-text">This was a projet for a Multimedia Arts. I was practicing the use of Adobe Photoshop and its tools. With it, I took some picture to make a random collage.</p>
+          </div>
+          </div>
+          <div class="card" style="width: 40rem;">
+            <a href="hendrickson_s_phographicalphabet.jpg" class="thumbnail" data-toggle="modal" data-target="#lightbox">
+                  <img class="card-img-top" src="hendrickson_s_phographicalphabet.jpg" class="Card image cap">
+                    <div class="card-body">
+                <h4 class="card-title">"Photographic Alphabet"</h4>
+                <p class="card-text">This was a project done for a typography class. I had to take photos of logos with words and put them all together using Adobe Photoshop to make up the alphabet.</p>
+            </a>
+          </div>
+          </div>
+          <div class="card" style="width: 40rem;">
+            <a href="HendricksonS_P1_webComp.jpg" class="thumbnail" data-toggle="modal" data-target="#lightbox">
+                 <img class="card-img-top" src="HendricksonS_P1_webComp.jpg" class="Card image cap">
+                   <div class="card-body">
+                <h4 class="card-title">"Vintage Photo Recoloring"</h4>
+                <p class="card-text">This was the first project in the Digital Imaging class. I took an vintage photo of two women walking in the park and recolored it using Photoshop.</p>
+            </a>
+          </div>
+          </div>
+         </div> <!-- .row -->
+    </div>
+</div>
+</div>
+<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="" alt="" />
+            </div>
+        </div>
+    </div>
+</div>
+</div> 
+<!-- *** .content **** -->
 <!-- **** END OF CONTENT ************  -->
              <footer class="mt-5 text-center">
-            <p>To learn more about my work email me at savvystar117@gmail.com or call 718-536-8843</p>
+            <p>October 2017, Savannah Hendrickson's Portfolio</p>
           </footer>
     </div> <!-- closing page wrapper -->
     </div>
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-<script src="carousel.js"></script>
-<script>
-function openModal() {
-  document.getElementById('myModal').style.display = "block";
-}
-
-function closeModal() {
-  document.getElementById('myModal').style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>    
+<script src="lighbox.js"></script>
 </body>
 </html>

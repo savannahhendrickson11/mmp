@@ -1,6 +1,3 @@
-  #content{
-   margin-left: 200px;
-  }
   #page{
     max-width: 1170px;
   }
@@ -47,6 +44,66 @@
 #lightbox .close {
     opacity: 1;
     color: rgb(255, 255, 255);
+    background-color: rgb(25, 25, 25);
+    padding: 5px 8px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -15px;
+    right: -55px;
+    z-index:1032;
+}
+
+ footer{
+  text-align:center;
+  background-color:purple;
+  color: white;
+ }
+.navbar-brand{
+  color:white;
+}
+ .navbar-toggler{
+  float: right;
+ }
+ .dropdown-menu{
+float: right;
+ }
+  .dropdown-menu{
+float: right;
+ }
+ .navbar-toggler-icon{
+  float: right;
+ }
+  .img-self{
+   max-width: 50%
+  }
+  .video-card{
+    margin-left: 100px;
+  }
+  nav{
+    list-style-type: none;
+    display:inline;
+    float:right;
+    text-align:right;
+    background-color: purple;
+    color:#fff;
+  }
+    nav li{
+      list-style-type: none;
+      display:inline;
+      text-align:right;
+      margin:1em;
+}
+    body{
+      margin-top:90px;
+      background: linear-gradient(to bottom, #cc66ff 0%, #ffccff 100%);
+} 
+.card-group {
+display:flex;
+float: center;
+  }
+}                         
+}
     background-color: rgb(25, 25, 25);
     padding: 5px 8px;
     border-radius: 30px;

@@ -1,4 +1,4 @@
-  #page{
+    #page{
     max-width: 1170px;
   }
   #container{
@@ -24,7 +24,6 @@
 .row > .column {
   padding: 0 8px;
 }
-
 .row:after {
   content: "";
   display: table;
@@ -35,25 +34,6 @@
   float: center;
   width: 25%;
 }
-
-#lightbox .modal-content {
-    display: inline-block;
-    text-align: center;   
-}
-
-#lightbox .close {
-    opacity: 1;
-    color: rgb(255, 255, 255);
-    background-color: rgb(25, 25, 25);
-    padding: 5px 8px;
-    border-radius: 30px;
-    border: 2px solid rgb(255, 255, 255);
-    position: absolute;
-    top: -15px;
-    right: -55px;
-    z-index:1032;
-}
-
  footer{
   text-align:center;
   background-color:purple;
@@ -98,12 +78,21 @@ float: right;
       margin-top:90px;
       background: linear-gradient(to bottom, #cc66ff 0%, #ffccff 100%);
 } 
-.card-group {
-display:flex;
-float: center;
-  }
-}                         
+
+    #content-gallery{
+      margin-left:400px;
 }
+    .card-body{
+      background-color: #bcc0ff;
+    }
+    #lightbox .modal-content {
+    display: inline-block;
+    text-align: center;   
+}
+
+    #lightbox .close {
+    opacity: 1;
+    color: rgb(255, 255, 255);
     background-color: rgb(25, 25, 25);
     padding: 5px 8px;
     border-radius: 30px;
@@ -111,54 +100,8 @@ float: center;
     position: absolute;
     top: -15px;
     right: -55px;
+    
     z-index:1032;
 }
-.site-header{
-  background-color: purple;
-  color:#fff;
-  text-align: center;
-  width:100%;
-  margin:0 auto;
-}
- 
- footer{
-  text-align:center;
-  background-color:purple;
-  color: white;
- }
-.navbar-brand{
-  color:white;
-}
- .navbar-toggler{
-  float: right;
- }
- .navbar-toggler-icon{
-  float: right;
- }
-  .img-self{
-    width: auto;
-    height: auto;
-   max-width: 100%
-  }
-  nav{
-    list-style-type: none;
-    display:inline;
-    float:right;
-    text-align:right;
-    background-color: purple;
-    color:#fff;
-  }
-    nav li{
-      list-style-type: none;
-      display:inline;
-      text-align:right;
-      margin:1em;
-}
-    body{
-      margin-top:60px;
-} 
-.card-group {
-display:flex;
-  }
 }                         
 }

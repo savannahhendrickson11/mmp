@@ -1,4 +1,4 @@
-    #page{
+   #page{
     max-width: 1170px;
   }
   #container{
@@ -29,6 +29,9 @@
   display: table;
   clear: both;
 }
+.self-img{
+  width: 34em;
+}
 
 .column {
   float: center;
@@ -57,9 +60,9 @@ float: right;
   .img-self{
    max-width: 50%
   }
-  .video-card{
-    margin-left: 100px;
-  }
+.card-body{
+  width: 50%;
+}
   nav{
     list-style-type: none;
     display:inline;
@@ -77,31 +80,200 @@ float: right;
     body{
       margin-top:90px;
       background: linear-gradient(to bottom, #cc66ff 0%, #ffccff 100%);
+      text-align: center;
 } 
 
-    #content-gallery{
-      margin-left:400px;
-}
-    .card-body{
-      background-color: #bcc0ff;
-    }
-    #lightbox .modal-content {
-    display: inline-block;
-    text-align: center;   
+.portfolio-content {
+  width: 70%;
+  text-align:center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-    #lightbox .close {
-    opacity: 1;
-    color: rgb(255, 255, 255);
-    background-color: rgb(25, 25, 25);
-    padding: 5px 8px;
-    border-radius: 30px;
-    border: 2px solid rgb(255, 255, 255);
-    position: absolute;
-    top: -15px;
-    right: -55px;
-    
-    z-index:1032;
+.portfolio-content img {
+  width: 30%;
+  height: 30%;
+  padding: 3px;
 }
-}                         
+
+.gallery-lightbox {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 15vw;
+  top: 20vh;
+  width: 70vw;
+  height: 60vh;
+  background-color: ;
+}
+
+.gallery-button-close {
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  right: -50px;
+  top: -50px;
+  border: 0;
+  background-color: transparent;
+  transform: rotate(45deg);
+}
+
+.gallery-button-previous {
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+
+.gallery-button-next {
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+
+.gallery-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.gallery-navigation-button {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.gallery-navigation-button.active {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.gallery-lightbox {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 15vw;
+  top: 20vh;
+  width: 70vw;
+  height: 60vh;
+  background-color: ;
+}
+
+.gallery-button-close {
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  right: -50px;
+  top: -50px;
+  border: 0;
+  background-color: transparent;
+  transform: rotate(45deg);
+}
+
+.gallery-button-previous {
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+
+.gallery-button-next {
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+
+.gallery-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.gallery-navigation-button {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.gallery-navigation-button.active {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.openItem {
+  margin-top: 90px;
+  width: 50%;
 }

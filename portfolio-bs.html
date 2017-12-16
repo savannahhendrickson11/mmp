@@ -20,112 +20,64 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">  
            <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
-              </li>
-                  <li class="nav-item active">
-                <a class="nav-link" href="home.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="resume.html">Resume</a>
               </li>
-               <li class="nav-item">
-                <a class="nav-link" href="portfolio-bs.html">Works<span class="sr-only">(current)</span></a>
-              </li>
+               <li class="dropdown">
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="portfolio-bs.html">Graphics</a></li>
+            <li><a href="animation.html">Animation</a></li>
             </ul>
+          </li>
           </div>
         </nav>
 <!-- **** END OF NAVIGATION ************  -->
         </div> <!-- .row -->        
 <!-- **** CONTENT ************  -->
-  <center><h1><b>Portfolio</b></h1></center>
-        <div id="content-gallery">
-      <div class="row">
-        <div class="card" style="width: 60rem;">
-          <a href="Goldestein.png" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
-                 <img class="card-img-top" src="Goldestein.png" class="Card image cap">
-                   <div class="card-body">
-                 <center><h2 class="card-title">"Goldstein National Bank Logo"</h2></center>
-                 <center><h4 class="card-text">This is for the Visual Communications class. I had to take a fellow classmate's surname and design a logo for the client of that name based on the type of brand. For this project, I used Adobe Illustrator and Adobe InDesign.</h4></center>
-            </a>
-            </div>  
-          </div>
-          </div> <!-- .row -->
-            <div class="row">
-            <div class="card" style="width: 30rem;">
-               <a href="HendricksonS_FP.jpg" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
-                  <img class="card-img-top" src="HendricksonS_FP.jpg" class="Card image cap">  
-                  <div class="card-body">
-                 <center><h2 class="card-title">"I Think There's A Flaw in My Code"</h2></center>
-                 <center><h4 class="card-text">This was the final project for a Digital Imaging class. I used the combination photos and text to create this project using both Adobe Photoshop and In Design.</h4></center>
-            </a> 
-          </div>
-          </div>
-          <div class="card" style="width: 30rem;">
-             <a href="Photoshop1.jpg" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
-                  <img class="card-img-top" src="Photoshop1.jpg" class="Card image cap">
-                    <div class="card-body">
-                 <center><h2 class="card-title">"Wild Kingdom"</h2></center>
-                 <center><h4 class="card-text">This was a projet for a Multimedia Arts. I was practicing the use of Adobe Photoshop and its tools. With it, I took some picture to make a random collage.</h4></center>
-          </div>
-          </div>
-           </div> <!-- .row -->
-             <div class="row">
-              <div class="card" style="width: 20rem;">
-                 <a href="hendrickson_s_phographicalphabet.jpg" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
-                  <img class="card-img-top" src="hendrickson_s_phographicalphabet.jpg" class="Card image cap">
-                    <div class="card-body">
-                 <center><h2 class="card-title">"Photographic Alphabet"</h2></center>
-                 <center><h4 class="card-text">This was a project done for a typography class. I had to take photos of logos with words and put them all together using Adobe Photoshop to make up the alphabet.</h4></center>
-            </a>
-          </div>
-          </div>
-                <div class="card" style="width: 20rem;">
-                   <a href="HendricksonS_P3_GIF1.gif" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
-                <img class="card-img-top" src="HendricksonS_P3_GIF1.gif" class="Card image cap">
-                <div class="card-body">
-                 <center><h2 class="card-title">Anime GIF: Tears and the Rain</h2></center>
-                 <center><h4 class="card-text">This project was also for the Digital Imaging class. I illustrated the girl crying in the rain in Adobe Illustrator and animated the scene into a GIF using Adobe Photoshop for this project.</h4></center>
-            </a> 
-          </div>
+  <center><h1><b>Portfolio-Illustration/Graphic Design</b></h1></center>
+  <div class="portfolio-content">
+
+          <img  class="gallery-item" src="Goldestein.png" data-title="Goldstein National Bank Logo" data-description="This was for the Visual Communications class. I had to take a fellow classmate's surname and design a logo for the client of that name based on the type of brand. For this project, I used Adobe Illustrator and Adobe InDesign."  gallery-full-image="Goldestein.png" alt="Logo" class="lightbox_trigger">
+
+          <img  class="gallery-item" src="HendricksonS_P1_webComp.jpg" gallery-full-image="HendricksonS_P1_webComp.jpg" alt="Vintage" data-title="Vintage Photo Recoloring" data-description="This was the first project in the Digital Imaging class. I took an vintage photo of two women walking in the park and recolored it using Photoshop.</p>">
+
+          <img  class="gallery-item" src="HendricksonS_P2.jpg" gallery-full-image="HendricksonS_P2.jpg" alt="Logo" class="lightbox_trigger" data-title="Rhinocelephippo" data-description="This was the second propject for the Digital Imaging class. I had to take three animals and combine them into a chimera. I took the head of an elephant, the mouth of a hippopotamus, and the body of a rhinoceros, and using Photoshop, I created the rhinocelephippo.">
+
+          <img  class="gallery-item" src="HendricksonS_FP.jpg" gallery-full-image="HendricksonS_FP.jpg" alt="Flaw" class="lightbox_trigger" data-title="I Think There's A Flaw in My Code" data-description="This was the final project for a Digital Imaging class. I used the combination photos and text to create this project using both Adobe Photoshop and In Design.">
+
+          <img  class="gallery-item" src="Photoshop1.jpg" gallery-full-image="Photoshop1.jpg" alt="Wild" class="lightbox_trigger" data-title="Wild Kingdom" data-description="This was a project for a Multimedia Arts class. I was practicing the use of Adobe Photoshop and its tools. With it, I took some picture to make a random collage.</p>">
+
+          <img  class="gallery-item" src="hendrickson_s_phographicalphabet.jpg" gallery-full-image="hendrickson_s_phographicalphabet.jpg" alt="Alphabet" class="lightbox_trigger" data-title="Photographic Alphabet" data-description="This was a project done for a typography class. I had to take photos of logos with words and put them all together using Adobe Photoshop to make up the alphabet.</p>">
+
+          <img  class="gallery-item" src="The Heart Poster (8.5x11).png" gallery-full-image="The Heart Poster (8.5x11).png" alt="Heart" class="lightbox_trigger" data-title="The Heart Poster" data-description="This is one of the five posters I designed for Multimedia Lab. I designed each poster for a specific screenplays. The screenplay for this poster is about a woman who becomes obsessed with finding who received her late husband’s heart</p>">
+
+          <img  class="gallery-item" src="The Long Journey Home (8.5x11).png" gallery-full-image="The Long Journey Home (8.5x11).png" alt="Journey" class="lightbox_trigger" data-title="The Long Journey Home Poster" data-description="This is one of the five posters I designed for a Multimedia Lab. I designed each poster for a specific screenplays. The screen play for this poster is about an Irish-Ecuadoran family in Queens as they plan to take their first trip to see their Irish relatives.</p>">
+
+          <img  class="gallery-item" src="US of A Poster (8.5x11).png" gallery-full-image="US of A Poster (8.5x11).png" alt="USA" class="lightbox_trigger" data-title="US of A Poster" data-description="This is one of the five posters I designed for Multimedia Lab. I designed each poster for a specific screenplays. The screenplay for this poster chronicles the character-building and soul-searching process of  ten young foreigners and first generation Americans of different ethnic and social backgrounds living in New York</p>">
+
+          <img  class="gallery-item" src="Fun And Games Poster (8.5x11).png" gallery-full-image="Fun And Games Poster (8.5x11).png" alt="Fun" class="lightbox_trigger" data-title="<h4>Fun and Games Poster" data-description="This is one of the five posters I designed for Multimedia Lab. I designed each poster for a specific screenplays. The screenplay for this poster is about a RPG/cosplay store in Brooklyn and a group of friends clinging to geekdom because they grew up too fast.</p>">
+
+          <img  class="gallery-item" src="Forever Poster (8.5x11).png" gallery-full-image="Forever Poster (8.5x11).png" alt="Forever"  data-title="Forever Poster" data-description="This is one of the five posters I designed for Multimedia Lab. I designed each poster for a specific screenplays. The screenplay for this poster is about two rival clans of vampires who try but fail to get along in contemporary Miami.</p>">
         </div>
-          <div class="card" style="width: 20rem;">
-             <a href="HendricksonS_P1_webComp.jpg" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
-                 <img class="card-img-top" src="HendricksonS_P1_webComp.jpg" class="Card image cap">
-                   <div class="card-body">
-                 <center><h2 class="card-title">"Vintage Photo Recoloring"</h2></center>
-                 <center><h4 class="card-text">This was the first project in the Digital Imaging class. I took an vintage photo of two women walking in the park and recolored it using Photoshop.</h4></center>
-              </a>
-              </div>
-            </div>
-              </div> <!-- .row -->
-            <div class="row">
-            <div class="card" style="width:60rem;">
-            <video width="100%" controls>
-  <source src="money-woes1.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
-<div class="card-body">
-      <center><h2 class="card-title">Money Woes</h2></center>
-  <center><h4 class="card-text">This project was for my 2D Animation Class. I illustrated the three characters and the settings in Adobe Illustrator. Then, I animated the scenes and added dialouge text using Adobe Animate.</h4></center>
-            </a> 
-    </div> 
-</div>
-</div>
-         </div> <!-- .row -->
-    </div>
-</div>
-</div>
-<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
-        <div class="modal-content">
-            <div class="modal-body">
-                <img src="Goldestein.png" alt="lightbox" />
-            </div>
+        <div class="gallery-lightbox">
+          <div class="gallery-content">
+            <button class="gallery-button-close">+</button>
+            <button class="gallery-button-previous">&lt;</button>
+            <button class="gallery-button-next">&gt;</button>
+            <ol class="gallery-navigation"></ol>
+          </div>
         </div>
     </div>
 </div>
+</div>
+
 <!-- *** .content **** -->
 <!-- **** END OF CONTENT ************  -->
              <footer class="mt-5 text-center">

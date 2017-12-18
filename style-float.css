@@ -1,17 +1,20 @@
   #page{
     max-width: 1170px;
   }
+
   #container{
     max-width: 2070px;
     margin:0 auto;
     display:inline;
   }
+
  img {
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
     padding: 5px; /* Some padding */
     width: 100%; /* Set a small width */
 }
+
   img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
@@ -21,6 +24,7 @@
     margin: none;
     padding: none;
   }
+
     @media (max-width:3000px){
 .row > .column {
   padding: 0 8px;
@@ -193,4 +197,5 @@ float: right;
 .openItem {
   margin-top: 85px;
   width: 60%;
+}
 }

@@ -1,4 +1,4 @@
-   #page{
+  #page{
     max-width: 1170px;
   }
   #container{
@@ -15,12 +15,13 @@
   img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
   nav ul{
     justify-content:flex-end;
     margin: none;
     padding: none;
   }
-    @media (min-width:480px){
+    @media (max-width:3000px){
 .row > .column {
   padding: 0 8px;
 }
@@ -30,7 +31,7 @@
   clear: both;
 }
 .self-img{
-  width: 34em;
+  width: 22em;
 }
 
 .column {
@@ -38,6 +39,7 @@
   width: 25%;
 }
  footer{
+  font-family: 'Quicksand', sans-serif;
   text-align:center;
   background-color:purple;
   color: white;
@@ -47,6 +49,151 @@
 }
  .navbar-toggler{
   float: right;
+ }
+ .dropdown-menu{
+float: right;
+ }
+ .navbar-toggler-icon{
+  float: right;
+ }
+  .img-self{
+   width: 22em;
+  }
+.card-body{
+  width: 50%;
+}
+  nav{
+    list-style-type: none;
+    display:inline;
+    float:right;
+    text-align:right;
+    background-color: purple;
+    color:#fff;
+  }
+    nav li{
+      list-style-type: none;
+      display:inline;
+      text-align:right;
+      margin:1em;
+}
+
+.card-link{
+  font-family: 'Quicksand', sans-serif;
+}
+    body{
+      margin-top:125px;
+      background: linear-gradient(to bottom, #cc66ff 0%, #ffccff 100%);
+      text-align: center;
+      font-family: 'Quicksand', sans-serif;
+} 
+
+.portfolio-content {
+  width: 70%;
+  text-align:center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.portfolio-content img {
+  width: 60%;
+  height: 60%;
+  padding: 3px;
+}
+
+.gallery-lightbox {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 15vw;
+  top: 20vh;
+  width: 70vw;
+  height: 60vh;
+  background-color: ;
+}
+
+.gallery-button-close {
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  right: -50px;
+  top: -50px;
+  border: 0;
+  background-color: transparent;
+  transform: rotate(45deg);
+}
+
+.gallery-button-previous {
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+
+.gallery-button-next {
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+
+.gallery-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.gallery-navigation-button {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.gallery-navigation-button.active {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.openItem {
+  margin-top: 85px;
+  width: 60%;
+}
  }
  .dropdown-menu{
 float: right;
